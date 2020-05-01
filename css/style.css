@@ -1,0 +1,144 @@
+/* Font for download button */
+@font-face {
+    font-family: 'KeepCalm';
+    src: url('fonts/KeepCalm-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Set background color of video white */
+.video-js {
+    background-color: white;
+}
+
+/* Show the controls (hidden at the start by default) */
+.video-js .vjs-control-bar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.vjs-skin-hotdog-stand {
+    color: #FF0000;
+}
+
+.vjs-skin-hotdog-stand .vjs-control-bar {
+    background: #FFFF00;
+}
+
+.vjs-skin-hotdog-stand .vjs-play-progress {
+    background: #FF0000;
+}
+
+body {
+    background: white;
+    text-align: center;
+    color: #aaa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Colour of links when displayed, hovered, and visited */
+a,
+a:hover,
+a:visited {
+    color: #AAAAAA;
+}
+
+div {
+    display: block;
+}
+
+/* Hide the volume level button */
+.vjs-volume-level {
+    visibility: hidden;
+}
+
+/* Hide the big play button on screen loading */
+.vjs-big-play-button {
+    visibility: hidden;
+}
+
+/* Hide the volume slider button */
+.vjs-volume-panel-horizontal {
+    visibility: hidden;
+}
+
+/* Hide the video speed button */
+.vjs-playback-rate {
+    visibility: hidden;
+}
+
+/* Hide the progress control bar */
+.video-js .vjs-progress-control {
+    display: none;
+}
+
+/* Hide the slider bar */
+.vjs-slider-bar {
+    visibility: hidden;
+}
+
+/* Hide play progress bar */
+.vjs-play-progress {
+    visibility: hidden;
+}
+
+/* Hide the seek bar */
+.vjs-seek-bar {
+    visibility: hidden;
+}
+
+/* Hide blank space for volume control */
+.video-js .vjs-volume-panel {
+    display: none;
+}
+
+/* Make control bar transparent */
+.video-js .vjs-control-bar {
+    background-color: rgba(43, 51, 63, 0.0);
+}
+
+/* Colour of buttons on video bar */
+.video-js .vjs-button {
+    color: #000;
+}
+
+/* Colour of remaining time display */
+.vjs-remaining-time-display {
+    color: #000;
+}
+
+/* Position of the video*/
+#video {
+    position: relative;
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+/* Position of the main video div */
+#content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+/* Font size of email at bottom */
+#email {
+    font-size: 75%;
+}
+
+/* Position of contact email address */
+#footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+}
