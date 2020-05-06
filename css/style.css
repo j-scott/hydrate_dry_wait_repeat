@@ -112,7 +112,7 @@ div {
 /* Position of the video*/
 #video {
     position: relative;
-    top: 20px;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
@@ -123,7 +123,7 @@ div {
 /* Position of the main video div */
 #content {
     position: absolute;
-    top: 0;
+    top: 20px;
     left: 0;
     right: 0;
     z-index: 1;
@@ -131,7 +131,7 @@ div {
 }
 
 /* Font size of email at bottom */
-#email {
+p {
     font-size: 75%;
 }
 
